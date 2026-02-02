@@ -42,9 +42,6 @@ onMounted(() => {
     <div class="mx-auto max-w-6xl px-6 h-16 flex items-center justify-between">
       <RouterLink to="/" class="flex items-center gap-3 group">
         <img :src="logoImg" alt="AEH Logo" class="h-10 w-10 object-contain drop-shadow-[0_0_10px_rgba(6,182,212,0.4)] group-hover:scale-110 transition-transform duration-300" />
-        <div class="text-lg font-display font-bold tracking-tight text-white group-hover:text-aeh-kick transition-colors">
-          ÆTHERHYT
-        </div>
       </RouterLink>
 
       <nav ref="navRef" class="hidden md:flex items-center gap-1 bg-white/5 p-1 rounded-full border border-white/5 backdrop-blur-3xl shadow-lg relative">

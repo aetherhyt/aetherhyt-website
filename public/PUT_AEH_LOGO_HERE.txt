@@ -1,0 +1,1 @@
+Put your AEH logo as public/logo.png (PNG with transparency).

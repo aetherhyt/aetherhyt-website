@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Hytale Guild Portal",
+    "tag": "Web App",
+    "desc": "A dedicated portal for the 'Aether Vanguard' guild. Features member management and event calendar.",
+    "tech": [
+      "Vue 3",
+      "Firebase",
+      "Tailwind"
+    ],
+    "link": "https://example.com"
+  },
+  {
+    "title": "Orbis Map Viewer",
+    "tag": "Tool",
+    "desc": "Interactive map tool for plotting coordinates and sharing waypoints with faction members.",
+    "tech": [
+      "Leaflet",
+      "JS",
+      "Canvas"
+    ],
+    "link": "https://example.com"
+  },
+  {
+    "title": "Server Admin Bot",
+    "tag": "Bot",
+    "desc": "Discord bot integrated with Hytale server API for whitelisting and status checks.",
+    "tech": [
+      "Node.js",
+      "Discord.js",
+      "API"
+    ],
+    "link": "https://example.com"
+  }
+]

@@ -1,0 +1,5 @@
+# Cloudflare Pages
+/dist
+/.wrangler
+node_modules
+.DS_Store

@@ -35,7 +35,7 @@
 
            <!-- Icon/Symbol -->
            <div class="absolute bottom-4 left-6 h-12 w-12 rounded-sm bg-[#0F172A] border border-white/10 flex items-center justify-center shadow-xl group-hover:scale-110 group-hover:border-aeh-cyan/50 transition-all duration-300">
-              <span class="text-xl">⚔️</span>
+              <span class="text-xl">{{ p.icon || '⚔️' }}</span>
            </div>
         </div>
 

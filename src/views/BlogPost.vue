@@ -23,27 +23,11 @@
 
     <!-- Content Reader -->
     <article class="max-w-3xl mx-auto prose prose-invert prose-lg prose-aeh animate-slide-up-delayed">
-        <!-- Hytale content comes as structured/JSON in some versions or HTML strings. 
-             Ideally we render the body content. For this demo, since the API structure for 'body' 
-             can be complex (it's often a JSON structure of modules in Hytale's case), 
-             we will do a simplified render or iframe if needed. 
-             If body is string HTML: v-html="post.body"
-             If it is modules, we would need a complex parser.
-             
-             Assumption for this implementation: We treat 'body' as text/html for now, 
-             or suggest linking to source if parsing is too complex without seeing API response.
-        -->
         <div class="bg-[#0a0a14] p-8 border border-white/5 rounded text-center">
-            <p class="text-slate-300 italic mb-6">
-              "This chronicle is fetched directly from the Orbis archives..."
-            </p>
             <a :href="`https://hytale.com/news/${year}/${month}/${post.slug}`" target="_blank" class="inline-flex items-center gap-2 px-6 py-3 bg-aeh-cyan/10 text-aeh-cyan border border-aeh-cyan/30 rounded font-bold hover:bg-aeh-cyan/20 transition-colors">
               Read Full Post on Hytale.com
               <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
             </a>
-            <p class="text-xs text-slate-600 mt-4 max-w-md mx-auto">
-               (Full rich-text rendering of Hytale's custom JSON block format would require a dedicated renderer component. Direct link provided for best experience.)
-            </p>
         </div>
     </article>
     

@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen aeh-bg" ref="bgRef">
+  <div class="min-h-screen aeh-bg flex flex-col" ref="bgRef">
     <!-- Spotlight Grid -->
     <div 
       class="fixed inset-0 aeh-grid pointer-events-none opacity-60"
@@ -25,7 +25,7 @@
     </div>
 
     <SiteNav />
-    <main class="relative">
+    <main class="relative flex-1">
       <router-view />
     </main>
     <SiteFooter />

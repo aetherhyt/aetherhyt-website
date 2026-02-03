@@ -33,14 +33,14 @@
         <!-- Mini Social Proof -->
         <div class="pt-8 flex items-center justify-center md:justify-start gap-8 text-sm text-slate-500 font-medium">
           <div class="flex items-center gap-2 group cursor-pointer hover:text-aeh-kick transition-colors">
-            <div class="p-2 rounded-full bg-white/5 group-hover:bg-aeh-kick/10 transition-colors">
+            <div class="p-2 rounded-sm bg-white/5 group-hover:bg-aeh-kick/10 transition-colors">
               <svg class="text-aeh-kick block w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M2.5 0h19A2.5 2.5 0 0124 2.5v19a2.5 2.5 0 01-2.5 2.5h-19A2.5 2.5 0 010 21.5v-19A2.5 2.5 0 012.5 0zM10.4 17.5l3.5-5.1-3.5-5.1H6.7l3.6 5.1-3.6 5.1h3.7zm4.2-.1l4.8-6h-3.3l-2.4 3.7 2.4 2.3h-2.1l-1.4-1.6-1.4 1.6h2.1l1.3-1.6 1.3 1.6h-2.1z"/></svg>
             </div>
             <span>Verified Creator</span>
           </div>
           <div class="h-8 w-px bg-white/10"></div>
           <div class="flex items-center gap-2 group cursor-pointer hover:text-aeh-cyan transition-colors">
-            <div class="p-2 rounded-full bg-white/5 group-hover:bg-aeh-cyan/10 transition-colors">
+            <div class="p-2 rounded-sm bg-white/5 group-hover:bg-aeh-cyan/10 transition-colors">
                <svg class="text-aeh-cyan block w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="7 8 3 12 7 16" /><polyline points="17 8 21 12 17 16" /><line x1="14" y1="4" x2="10" y2="20" /></svg>
             </div>
             <span>Mod/Tool Dev</span>
@@ -73,7 +73,7 @@
                 <div class="absolute inset-0 bg-gradient-to-t from-[#020408] to-transparent"></div>
                 
                 <!-- Play Button Visual -->
-                <div class="h-20 w-20 rounded-full bg-aeh-gold/10 backdrop-blur-sm flex items-center justify-center border border-aeh-gold/30 group-hover:scale-110 group-hover:bg-aeh-gold/20 transition-all duration-500 cursor-pointer shadow-[0_0_30px_rgba(255,215,0,0.15)]">
+                <div class="h-20 w-20 rounded-sm bg-aeh-gold/10 backdrop-blur-sm flex items-center justify-center border border-aeh-gold/30 group-hover:scale-110 group-hover:bg-aeh-gold/20 transition-all duration-500 cursor-pointer shadow-[0_0_30px_rgba(255,215,0,0.15)]">
                    <svg class="ml-1 text-aeh-gold" width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                 </div>
              </div>
@@ -88,7 +88,7 @@
                       <h3 class="text-white font-bold text-lg leading-tight group-hover:text-aeh-kick transition-colors">Constructing the Capital City | Guild War Prep</h3>
                       <div class="text-aeh-kick text-xs font-bold uppercase tracking-wider mt-1">Hytale / Creative</div>
                    </div>
-                   <div class="h-10 w-10 rounded-full bg-aeh-kick/10 border border-aeh-kick/20 flex items-center justify-center group-hover:bg-aeh-kick/20 transition-colors">
+                   <div class="h-10 w-10 rounded-sm bg-aeh-kick/10 border border-aeh-kick/20 flex items-center justify-center group-hover:bg-aeh-kick/20 transition-colors">
                       <svg class="text-aeh-kick h-5 w-5" aria-hidden="true" role="img" viewBox="0 0 24 24" fill="currentColor"><path d="M2.5 0h19A2.5 2.5 0 0124 2.5v19a2.5 2.5 0 01-2.5 2.5h-19A2.5 2.5 0 010 21.5v-19A2.5 2.5 0 012.5 0zM10.4 17.5l3.5-5.1-3.5-5.1H6.7l3.6 5.1-3.6 5.1h3.7zm4.2-.1l4.8-6h-3.3l-2.4 3.7 2.4 2.3h-2.1l-1.4-1.6-1.4 1.6h2.1l1.3-1.6 1.3 1.6h-2.1z"/></svg>
                    </div>
                 </div>
@@ -100,8 +100,8 @@
         </div>
         
         <!-- Decorative Elements in 3D space behind card -->
-        <div class="absolute -z-10 -bottom-10 -right-10 h-64 w-64 bg-aeh-kick/20 rounded-full blur-[80px] opacity-60"></div>
-        <div class="absolute -z-10 -top-10 -left-10 h-64 w-64 bg-aeh-cyan/10 rounded-full blur-[80px] opacity-60"></div>
+        <div class="absolute -z-10 -bottom-10 -right-10 h-64 w-64 bg-aeh-kick/20 rounded-sm blur-[80px] opacity-60"></div>
+        <div class="absolute -z-10 -top-10 -left-10 h-64 w-64 bg-aeh-cyan/10 rounded-sm blur-[80px] opacity-60"></div>
       </div>
     </div>
     

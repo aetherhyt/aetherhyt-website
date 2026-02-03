@@ -27,7 +27,7 @@
            <div class="absolute inset-0 bg-gradient-to-t from-[#0a0a14] via-transparent to-transparent opacity-60"></div>
            
            <!-- Date Badge -->
-           <div class="absolute top-3 right-3 bg-black/80 backdrop-blur-sm border border-white/10 px-3 py-1 text-xs font-mono text-aeh-gold">
+           <div class="absolute top-3 right-3 bg-black/80 backdrop-blur-sm border border-white/10 px-3 py-1 text-xs font-mono text-aeh-gold rounded-sm">
              {{ formatDate(post.publishedAt) }}
            </div>
         </div>
@@ -67,7 +67,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
 import { useRouter } from 'vue-router';
-
+import postsData from '@/assets/data/hytale-posts.json';
 const router = useRouter();
 const posts = ref([]);
 const loading = ref(false);
@@ -86,9 +86,13 @@ const fetchPosts = async () => {
   try {
     // If we haven't fetched anything yet, grab the big list
     if (allPostsCache.value.length === 0) {
-       const res = await fetch('https://hytale.com/api/blog/post/published');
-       const data = await res.json();
-       allPostsCache.value = data; // Store full list
+      // Simulate API fetch with local JSON data
+      // In real scenario, replace with actual fetch call
+      // const response = await fetch('https://api.hytale.com/blog/posts');
+      // const data = await response.json();
+      const data = postsData; // Using local JSON for demo/testing
+      
+      allPostsCache.value = data || [];
     }
 
     // Simulate pagination by slicing the cached array

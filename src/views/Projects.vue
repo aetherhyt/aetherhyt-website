@@ -28,13 +28,13 @@
            
            <!-- Tag -->
            <div class="absolute top-4 right-4 z-10">
-             <span class="text-[10px] font-black tracking-widest uppercase text-black bg-aeh-cyan px-2 py-1 rounded shadow-[0_0_10px_rgba(78,205,196,0.5)]">
+             <span class="text-[10px] font-black tracking-widest uppercase text-black bg-aeh-cyan px-2 py-1 rounded-sm shadow-[0_0_10px_rgba(78,205,196,0.5)]">
                {{ p.tag }}
              </span>
            </div>
 
            <!-- Icon/Symbol -->
-           <div class="absolute bottom-4 left-6 h-12 w-12 rounded-lg bg-[#0F172A] border border-white/10 flex items-center justify-center shadow-xl group-hover:scale-110 group-hover:border-aeh-cyan/50 transition-all duration-300">
+           <div class="absolute bottom-4 left-6 h-12 w-12 rounded-sm bg-[#0F172A] border border-white/10 flex items-center justify-center shadow-xl group-hover:scale-110 group-hover:border-aeh-cyan/50 transition-all duration-300">
               <span class="text-xl">⚔️</span>
            </div>
         </div>
@@ -46,7 +46,7 @@
           
           <div class="pt-4 border-t border-white/5 flex items-center justify-between">
             <span class="text-xs font-medium text-slate-500 group-hover:text-slate-300 transition-colors">View Project</span>
-            <div class="h-8 w-8 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-aeh-cyan group-hover:text-black transition-all duration-300">
+            <div class="h-8 w-8 rounded-sm bg-white/5 flex items-center justify-center group-hover:bg-aeh-cyan group-hover:text-black transition-all duration-300">
                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
             </div>
           </div>

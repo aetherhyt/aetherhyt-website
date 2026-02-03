@@ -64,6 +64,8 @@
 import { ref, onMounted, computed } from 'vue';
 import { useRoute } from 'vue-router';
 
+import postsData from '@/assets/data/hytale-posts.json';
+
 const route = useRoute();
 const post = ref(null);
 
@@ -79,13 +81,8 @@ const month = computed(() => {
 
 onMounted(async () => {
    try {
-     // We need to fetch the list again to find the specific post by slug, 
-     // unless we have a specific 'get by slug' endpoint (which Hytale public API doesn't document readily).
-     // Efficient method: Retrieve list and find.
-     const res = await fetch('https://hytale.com/api/blog/post/published');
-     const data = await res.json();
      
-     const found = data.find(p => p.slug === route.params.slug);
+     const found = postsData.find(p => p.slug === route.params.slug);
      if (found) {
        post.value = found;
      }

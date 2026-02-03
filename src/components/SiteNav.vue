@@ -44,10 +44,10 @@ onMounted(() => {
         <img :src="logoImg" alt="AEH Logo" class="h-10 w-10 object-contain drop-shadow-[0_0_10px_rgba(6,182,212,0.4)] group-hover:scale-110 transition-transform duration-300" />
       </RouterLink>
 
-      <nav ref="navRef" class="hidden md:flex items-center gap-1 bg-white/5 p-1 rounded-full border border-white/5 backdrop-blur-3xl shadow-lg relative">
+      <nav ref="navRef" class="hidden md:flex items-center gap-1 bg-white/5 p-1 rounded-sm border border-white/5 backdrop-blur-3xl shadow-lg relative">
         <!-- Sliding Background Pill -->
         <div 
-          class="absolute top-1 bottom-1 bg-aeh-cyan/10 rounded-full transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] border border-aeh-cyan/30 shadow-[0_0_15px_rgba(78,205,196,0.2)]"
+          class="absolute top-1 bottom-1 bg-aeh-cyan/10 rounded-sm transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] border border-aeh-cyan/30 shadow-[0_0_15px_rgba(78,205,196,0.2)]"
           :style="pillStyle"
         ></div>
 
@@ -68,7 +68,7 @@ onMounted(() => {
 
 <style scoped>
 .navlink { 
-  @apply px-5 py-2 rounded-full text-sm font-medium text-slate-400 transition-all duration-300 hover:text-white;
+  @apply px-5 py-2 rounded-sm text-sm font-medium text-slate-400 transition-all duration-300 hover:text-white;
 }
 
 /* Hover Effect: Text only now, since pill handles background */
